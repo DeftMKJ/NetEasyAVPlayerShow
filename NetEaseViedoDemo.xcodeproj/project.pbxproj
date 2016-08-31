@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109599F7B3EA2A66046D8C1F /* libPods-NetEaseViedoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C090FF98D10915C3F36B077A /* libPods-NetEaseViedoDemo.a */; };
 		B13A269B1D7670CF007A5F15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A269A1D7670CF007A5F15 /* main.m */; };
 		B13A269E1D7670CF007A5F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A269D1D7670CF007A5F15 /* AppDelegate.m */; };
 		B13A26A11D7670CF007A5F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26A01D7670CF007A5F15 /* ViewController.m */; };
@@ -15,6 +16,23 @@
 		B13A26A91D7670CF007A5F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A26A71D7670CF007A5F15 /* LaunchScreen.storyboard */; };
 		B13A26B41D7670CF007A5F15 /* NetEaseViedoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26B31D7670CF007A5F15 /* NetEaseViedoDemoTests.m */; };
 		B13A26BF1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26BE1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m */; };
+		B13A26CF1D7679A7007A5F15 /* MKJRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26CE1D7679A7007A5F15 /* MKJRequestHelper.m */; };
+		B13A26D21D7679C6007A5F15 /* ViedoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26D11D7679C6007A5F15 /* ViedoModel.m */; };
+		B13A26D81D7679EF007A5F15 /* ViedoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26D61D7679EF007A5F15 /* ViedoTableViewCell.m */; };
+		B13A26D91D7679EF007A5F15 /* ViedoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13A26D71D7679EF007A5F15 /* ViedoTableViewCell.xib */; };
+		B13A26DD1D767A32007A5F15 /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B13A26DA1D767A32007A5F15 /* WMPlayer.bundle */; };
+		B13A26DE1D767A32007A5F15 /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26DC1D767A32007A5F15 /* WMPlayer.m */; };
+		B13A26E11D76A55A007A5F15 /* playcount.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26DF1D76A55A007A5F15 /* playcount.png */; };
+		B13A26E21D76A55A007A5F15 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26E01D76A55A007A5F15 /* time.png */; };
+		B13A26E41D76A590007A5F15 /* video_play_btn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26E31D76A590007A5F15 /* video_play_btn_bg@2x.png */; };
+		B13A26EB1D76C9CE007A5F15 /* XHJDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26EA1D76C9CE007A5F15 /* XHJDRefreshView.m */; };
+		B13A26F51D76D7B0007A5F15 /* box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26EF1D76D7B0007A5F15 /* box@2x.png */; };
+		B13A26F61D76D7B0007A5F15 /* deliveryStaff0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26F01D76D7B0007A5F15 /* deliveryStaff0@2x.png */; };
+		B13A26F71D76D7B0007A5F15 /* deliveryStaff1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26F11D76D7B0007A5F15 /* deliveryStaff1@2x.png */; };
+		B13A26F81D76D7B0007A5F15 /* deliveryStaff2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26F21D76D7B0007A5F15 /* deliveryStaff2@2x.png */; };
+		B13A26F91D76D7B0007A5F15 /* deliveryStaff3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26F31D76D7B0007A5F15 /* deliveryStaff3@2x.png */; };
+		B13A26FA1D76D7B0007A5F15 /* staticDeliveryStaff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13A26F41D76D7B0007A5F15 /* staticDeliveryStaff@2x.png */; };
+		B13A26FD1D76D9A7007A5F15 /* MKJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26FC1D76D9A7007A5F15 /* MKJRefreshHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,32 @@
 		B13A26BA1D7670CF007A5F15 /* NetEaseViedoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseViedoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13A26BE1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseViedoDemoUITests.m; sourceTree = "<group>"; };
 		B13A26C01D7670CF007A5F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A26CD1D7679A7007A5F15 /* MKJRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJRequestHelper.h; sourceTree = "<group>"; };
+		B13A26CE1D7679A7007A5F15 /* MKJRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJRequestHelper.m; sourceTree = "<group>"; };
+		B13A26D01D7679C6007A5F15 /* ViedoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViedoModel.h; sourceTree = "<group>"; };
+		B13A26D11D7679C6007A5F15 /* ViedoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViedoModel.m; sourceTree = "<group>"; };
+		B13A26D51D7679EF007A5F15 /* ViedoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViedoTableViewCell.h; sourceTree = "<group>"; };
+		B13A26D61D7679EF007A5F15 /* ViedoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViedoTableViewCell.m; sourceTree = "<group>"; };
+		B13A26D71D7679EF007A5F15 /* ViedoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViedoTableViewCell.xib; sourceTree = "<group>"; };
+		B13A26DA1D767A32007A5F15 /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		B13A26DB1D767A32007A5F15 /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		B13A26DC1D767A32007A5F15 /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		B13A26DF1D76A55A007A5F15 /* playcount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playcount.png; sourceTree = "<group>"; };
+		B13A26E01D76A55A007A5F15 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		B13A26E31D76A590007A5F15 /* video_play_btn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_play_btn_bg@2x.png"; sourceTree = "<group>"; };
+		B13A26E91D76C9CE007A5F15 /* XHJDRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJDRefreshView.h; sourceTree = "<group>"; };
+		B13A26EA1D76C9CE007A5F15 /* XHJDRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJDRefreshView.m; sourceTree = "<group>"; };
+		B13A26EF1D76D7B0007A5F15 /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box@2x.png"; sourceTree = "<group>"; };
+		B13A26F01D76D7B0007A5F15 /* deliveryStaff0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deliveryStaff0@2x.png"; sourceTree = "<group>"; };
+		B13A26F11D76D7B0007A5F15 /* deliveryStaff1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deliveryStaff1@2x.png"; sourceTree = "<group>"; };
+		B13A26F21D76D7B0007A5F15 /* deliveryStaff2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deliveryStaff2@2x.png"; sourceTree = "<group>"; };
+		B13A26F31D76D7B0007A5F15 /* deliveryStaff3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deliveryStaff3@2x.png"; sourceTree = "<group>"; };
+		B13A26F41D76D7B0007A5F15 /* staticDeliveryStaff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "staticDeliveryStaff@2x.png"; sourceTree = "<group>"; };
+		B13A26FB1D76D9A7007A5F15 /* MKJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJRefreshHeader.h; sourceTree = "<group>"; };
+		B13A26FC1D76D9A7007A5F15 /* MKJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJRefreshHeader.m; sourceTree = "<group>"; };
+		C090FF98D10915C3F36B077A /* libPods-NetEaseViedoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetEaseViedoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E157AC764278A469DD6CC5E3 /* Pods-NetEaseViedoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseViedoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseViedoDemo/Pods-NetEaseViedoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EA56F11819064DB55F3A445A /* Pods-NetEaseViedoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseViedoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseViedoDemo/Pods-NetEaseViedoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109599F7B3EA2A66046D8C1F /* libPods-NetEaseViedoDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +123,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39E957042370F8519CC800A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA56F11819064DB55F3A445A /* Pods-NetEaseViedoDemo.debug.xcconfig */,
+				E157AC764278A469DD6CC5E3 /* Pods-NetEaseViedoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F4E5018B23F1739EB9AA512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C090FF98D10915C3F36B077A /* libPods-NetEaseViedoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B13A268D1D7670CF007A5F15 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				B13A26B21D7670CF007A5F15 /* NetEaseViedoDemoTests */,
 				B13A26BD1D7670CF007A5F15 /* NetEaseViedoDemoUITests */,
 				B13A26971D7670CF007A5F15 /* Products */,
+				39E957042370F8519CC800A4 /* Pods */,
+				7F4E5018B23F1739EB9AA512 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +165,10 @@
 		B13A26981D7670CF007A5F15 /* NetEaseViedoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B13A26E51D76C9AE007A5F15 /* CustomRefreshHeader */,
+				B13A26D41D7679D9007A5F15 /* PlayerView */,
+				B13A26D31D7679CA007A5F15 /* Cell */,
+				B13A26CC1D767982007A5F15 /* DataRequestHelper */,
 				B13A269C1D7670CF007A5F15 /* AppDelegate.h */,
 				B13A269D1D7670CF007A5F15 /* AppDelegate.m */,
 				B13A269F1D7670CF007A5F15 /* ViewController.h */,
@@ -140,6 +208,57 @@
 			path = NetEaseViedoDemoUITests;
 			sourceTree = "<group>";
 		};
+		B13A26CC1D767982007A5F15 /* DataRequestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26CD1D7679A7007A5F15 /* MKJRequestHelper.h */,
+				B13A26CE1D7679A7007A5F15 /* MKJRequestHelper.m */,
+				B13A26D01D7679C6007A5F15 /* ViedoModel.h */,
+				B13A26D11D7679C6007A5F15 /* ViedoModel.m */,
+			);
+			name = DataRequestHelper;
+			sourceTree = "<group>";
+		};
+		B13A26D31D7679CA007A5F15 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26D51D7679EF007A5F15 /* ViedoTableViewCell.h */,
+				B13A26D61D7679EF007A5F15 /* ViedoTableViewCell.m */,
+				B13A26D71D7679EF007A5F15 /* ViedoTableViewCell.xib */,
+				B13A26DF1D76A55A007A5F15 /* playcount.png */,
+				B13A26E01D76A55A007A5F15 /* time.png */,
+				B13A26E31D76A590007A5F15 /* video_play_btn_bg@2x.png */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B13A26D41D7679D9007A5F15 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26DA1D767A32007A5F15 /* WMPlayer.bundle */,
+				B13A26DB1D767A32007A5F15 /* WMPlayer.h */,
+				B13A26DC1D767A32007A5F15 /* WMPlayer.m */,
+			);
+			name = PlayerView;
+			sourceTree = "<group>";
+		};
+		B13A26E51D76C9AE007A5F15 /* CustomRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26EF1D76D7B0007A5F15 /* box@2x.png */,
+				B13A26F01D76D7B0007A5F15 /* deliveryStaff0@2x.png */,
+				B13A26F11D76D7B0007A5F15 /* deliveryStaff1@2x.png */,
+				B13A26F21D76D7B0007A5F15 /* deliveryStaff2@2x.png */,
+				B13A26F31D76D7B0007A5F15 /* deliveryStaff3@2x.png */,
+				B13A26F41D76D7B0007A5F15 /* staticDeliveryStaff@2x.png */,
+				B13A26FB1D76D9A7007A5F15 /* MKJRefreshHeader.h */,
+				B13A26FC1D76D9A7007A5F15 /* MKJRefreshHeader.m */,
+				B13A26E91D76C9CE007A5F15 /* XHJDRefreshView.h */,
+				B13A26EA1D76C9CE007A5F15 /* XHJDRefreshView.m */,
+			);
+			name = CustomRefreshHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B13A26C31D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemo" */;
 			buildPhases = (
+				E3EA12B6E521E313D67EF6C9 /* [CP] Check Pods Manifest.lock */,
 				B13A26921D7670CF007A5F15 /* Sources */,
 				B13A26931D7670CF007A5F15 /* Frameworks */,
 				B13A26941D7670CF007A5F15 /* Resources */,
+				B0CBB8F81202AFCD75B23433 /* [CP] Embed Pods Frameworks */,
+				AB74C744855D35A1D3C3244B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +366,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B13A26A91D7670CF007A5F15 /* LaunchScreen.storyboard in Resources */,
+				B13A26F51D76D7B0007A5F15 /* box@2x.png in Resources */,
+				B13A26F71D76D7B0007A5F15 /* deliveryStaff1@2x.png in Resources */,
+				B13A26FA1D76D7B0007A5F15 /* staticDeliveryStaff@2x.png in Resources */,
+				B13A26D91D7679EF007A5F15 /* ViedoTableViewCell.xib in Resources */,
 				B13A26A61D7670CF007A5F15 /* Assets.xcassets in Resources */,
+				B13A26E11D76A55A007A5F15 /* playcount.png in Resources */,
+				B13A26E41D76A590007A5F15 /* video_play_btn_bg@2x.png in Resources */,
+				B13A26F61D76D7B0007A5F15 /* deliveryStaff0@2x.png in Resources */,
+				B13A26F81D76D7B0007A5F15 /* deliveryStaff2@2x.png in Resources */,
+				B13A26DD1D767A32007A5F15 /* WMPlayer.bundle in Resources */,
+				B13A26E21D76A55A007A5F15 /* time.png in Resources */,
+				B13A26F91D76D7B0007A5F15 /* deliveryStaff3@2x.png in Resources */,
 				B13A26A41D7670CF007A5F15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +398,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB74C744855D35A1D3C3244B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetEaseViedoDemo/Pods-NetEaseViedoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CBB8F81202AFCD75B23433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetEaseViedoDemo/Pods-NetEaseViedoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3EA12B6E521E313D67EF6C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B13A26921D7670CF007A5F15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13A26CF1D7679A7007A5F15 /* MKJRequestHelper.m in Sources */,
 				B13A26A11D7670CF007A5F15 /* ViewController.m in Sources */,
+				B13A26D21D7679C6007A5F15 /* ViedoModel.m in Sources */,
+				B13A26DE1D767A32007A5F15 /* WMPlayer.m in Sources */,
 				B13A269E1D7670CF007A5F15 /* AppDelegate.m in Sources */,
 				B13A269B1D7670CF007A5F15 /* main.m in Sources */,
+				B13A26D81D7679EF007A5F15 /* ViedoTableViewCell.m in Sources */,
+				B13A26EB1D76C9CE007A5F15 /* XHJDRefreshView.m in Sources */,
+				B13A26FD1D76D9A7007A5F15 /* MKJRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +600,7 @@
 		};
 		B13A26C41D7670CF007A5F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA56F11819064DB55F3A445A /* Pods-NetEaseViedoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetEaseViedoDemo/Info.plist;
@@ -424,6 +612,7 @@
 		};
 		B13A26C51D7670CF007A5F15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E157AC764278A469DD6CC5E3 /* Pods-NetEaseViedoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetEaseViedoDemo/Info.plist;
@@ -498,6 +687,7 @@
 				B13A26C51D7670CF007A5F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B13A26C61D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +696,7 @@
 				B13A26C81D7670CF007A5F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B13A26C91D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +705,7 @@
 				B13A26CB1D7670CF007A5F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

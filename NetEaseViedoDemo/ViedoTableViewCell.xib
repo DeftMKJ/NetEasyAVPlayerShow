@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ViedoTableViewCell" id="KGk-i7-Jjw" customClass="ViedoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是标题我是标题我是标题我是标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1J-HC-8Zm">
+                        <rect key="frame" x="10" y="5" width="345" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是副标题我是副标题我是副标题我是副标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwg-XO-vja">
+                        <rect key="frame" x="10" y="34" width="345" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Re-I9-19u">
+                        <rect key="frame" x="10" y="259" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="7Be-HB-jUY"/>
+                            <constraint firstAttribute="height" constant="30" id="7ji-Km-C3j"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zd-ID-KnK">
+                        <rect key="frame" x="45" y="265" width="40" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J55-4B-o3c">
+                        <rect key="frame" x="130" y="265" width="40" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E0G-j6-e5V">
+                        <rect key="frame" x="0.0" y="57" width="375" height="197"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-Po-smr">
+                        <rect key="frame" x="163" y="125" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="UI9-aa-W7y"/>
+                            <constraint firstAttribute="height" constant="50" id="zhJ-mg-lXJ"/>
+                        </constraints>
+                        <state key="normal" image="video_play_btn_bg.png"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playcount.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMM-Kg-X5k">
+                        <rect key="frame" x="95" y="259" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Mop-0x-PCr"/>
+                            <constraint firstAttribute="width" constant="30" id="wmN-Be-1E0"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6zd-ID-KnK" firstAttribute="centerY" secondItem="0Re-I9-19u" secondAttribute="centerY" id="2Ng-gY-lhe"/>
+                    <constraint firstAttribute="trailing" secondItem="Zwg-XO-vja" secondAttribute="trailing" constant="20" id="5ew-Nk-NS7"/>
+                    <constraint firstItem="U1J-HC-8Zm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6jm-Va-Wx7"/>
+                    <constraint firstAttribute="trailing" secondItem="E0G-j6-e5V" secondAttribute="trailing" id="FxJ-O4-al6"/>
+                    <constraint firstItem="9b6-Po-smr" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Itj-R2-Ubi"/>
+                    <constraint firstItem="9b6-Po-smr" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="KBr-fE-vJg"/>
+                    <constraint firstItem="Zwg-XO-vja" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="RSb-f5-IMq"/>
+                    <constraint firstItem="sMM-Kg-X5k" firstAttribute="leading" secondItem="6zd-ID-KnK" secondAttribute="trailing" constant="10" id="Sqp-a2-Mi0"/>
+                    <constraint firstAttribute="trailing" secondItem="U1J-HC-8Zm" secondAttribute="trailing" constant="20" id="Wt8-ci-fuW"/>
+                    <constraint firstAttribute="bottom" secondItem="0Re-I9-19u" secondAttribute="bottom" constant="10" id="XyR-4U-vHb"/>
+                    <constraint firstItem="Zwg-XO-vja" firstAttribute="top" secondItem="U1J-HC-8Zm" secondAttribute="bottom" constant="8" id="YZb-qr-eYG"/>
+                    <constraint firstItem="J55-4B-o3c" firstAttribute="centerY" secondItem="sMM-Kg-X5k" secondAttribute="centerY" id="gDR-5o-OXz"/>
+                    <constraint firstItem="E0G-j6-e5V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="i8m-vY-QVh"/>
+                    <constraint firstItem="sMM-Kg-X5k" firstAttribute="top" secondItem="E0G-j6-e5V" secondAttribute="bottom" constant="5" id="jVk-8d-Ad7"/>
+                    <constraint firstItem="6zd-ID-KnK" firstAttribute="leading" secondItem="0Re-I9-19u" secondAttribute="trailing" constant="5" id="mX2-vN-KEl"/>
+                    <constraint firstItem="sMM-Kg-X5k" firstAttribute="centerY" secondItem="0Re-I9-19u" secondAttribute="centerY" id="qzK-Si-IfL"/>
+                    <constraint firstItem="U1J-HC-8Zm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rzr-OH-fRZ"/>
+                    <constraint firstItem="E0G-j6-e5V" firstAttribute="top" secondItem="Zwg-XO-vja" secondAttribute="bottom" constant="5" id="sG3-vd-9Bc"/>
+                    <constraint firstItem="0Re-I9-19u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="u6u-hw-Pup"/>
+                    <constraint firstItem="J55-4B-o3c" firstAttribute="leading" secondItem="sMM-Kg-X5k" secondAttribute="trailing" constant="5" id="vpP-Pj-hIz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="Zwg-XO-vja" id="dX2-5g-aHa"/>
+                <outlet property="mainImageView" destination="E0G-j6-e5V" id="x1e-xJ-YUU"/>
+                <outlet property="playButton" destination="9b6-Po-smr" id="4P7-t9-nAC"/>
+                <outlet property="playCountLabel" destination="J55-4B-o3c" id="H8C-hb-fYy"/>
+                <outlet property="ptimeLabel" destination="6zd-ID-KnK" id="apn-eQ-HSS"/>
+                <outlet property="titleLabel" destination="U1J-HC-8Zm" id="Zs9-7z-M7K"/>
+            </connections>
+            <point key="canvasLocation" x="572.5" y="401"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="playcount.png" width="64" height="64"/>
+        <image name="time.png" width="64" height="64"/>
+        <image name="video_play_btn_bg.png" width="64" height="64"/>
+    </resources>
+</document>
