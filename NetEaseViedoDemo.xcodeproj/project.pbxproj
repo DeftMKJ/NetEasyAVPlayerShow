@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13A269B1D7670CF007A5F15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A269A1D7670CF007A5F15 /* main.m */; };
+		B13A269E1D7670CF007A5F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A269D1D7670CF007A5F15 /* AppDelegate.m */; };
+		B13A26A11D7670CF007A5F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26A01D7670CF007A5F15 /* ViewController.m */; };
+		B13A26A41D7670CF007A5F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A26A21D7670CF007A5F15 /* Main.storyboard */; };
+		B13A26A61D7670CF007A5F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13A26A51D7670CF007A5F15 /* Assets.xcassets */; };
+		B13A26A91D7670CF007A5F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A26A71D7670CF007A5F15 /* LaunchScreen.storyboard */; };
+		B13A26B41D7670CF007A5F15 /* NetEaseViedoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26B31D7670CF007A5F15 /* NetEaseViedoDemoTests.m */; };
+		B13A26BF1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A26BE1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13A26B01D7670CF007A5F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A268E1D7670CF007A5F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A26951D7670CF007A5F15;
+			remoteInfo = NetEaseViedoDemo;
+		};
+		B13A26BB1D7670CF007A5F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A268E1D7670CF007A5F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A26951D7670CF007A5F15;
+			remoteInfo = NetEaseViedoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B13A26961D7670CF007A5F15 /* NetEaseViedoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseViedoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A269A1D7670CF007A5F15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13A269C1D7670CF007A5F15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B13A269D1D7670CF007A5F15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B13A269F1D7670CF007A5F15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B13A26A01D7670CF007A5F15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B13A26A31D7670CF007A5F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13A26A51D7670CF007A5F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13A26A81D7670CF007A5F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13A26AA1D7670CF007A5F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A26AF1D7670CF007A5F15 /* NetEaseViedoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseViedoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A26B31D7670CF007A5F15 /* NetEaseViedoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseViedoDemoTests.m; sourceTree = "<group>"; };
+		B13A26B51D7670CF007A5F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A26BA1D7670CF007A5F15 /* NetEaseViedoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseViedoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A26BE1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseViedoDemoUITests.m; sourceTree = "<group>"; };
+		B13A26C01D7670CF007A5F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13A26931D7670CF007A5F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26AC1D7670CF007A5F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26B71D7670CF007A5F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13A268D1D7670CF007A5F15 = {
+			isa = PBXGroup;
+			children = (
+				B13A26981D7670CF007A5F15 /* NetEaseViedoDemo */,
+				B13A26B21D7670CF007A5F15 /* NetEaseViedoDemoTests */,
+				B13A26BD1D7670CF007A5F15 /* NetEaseViedoDemoUITests */,
+				B13A26971D7670CF007A5F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13A26971D7670CF007A5F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26961D7670CF007A5F15 /* NetEaseViedoDemo.app */,
+				B13A26AF1D7670CF007A5F15 /* NetEaseViedoDemoTests.xctest */,
+				B13A26BA1D7670CF007A5F15 /* NetEaseViedoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13A26981D7670CF007A5F15 /* NetEaseViedoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B13A269C1D7670CF007A5F15 /* AppDelegate.h */,
+				B13A269D1D7670CF007A5F15 /* AppDelegate.m */,
+				B13A269F1D7670CF007A5F15 /* ViewController.h */,
+				B13A26A01D7670CF007A5F15 /* ViewController.m */,
+				B13A26A21D7670CF007A5F15 /* Main.storyboard */,
+				B13A26A51D7670CF007A5F15 /* Assets.xcassets */,
+				B13A26A71D7670CF007A5F15 /* LaunchScreen.storyboard */,
+				B13A26AA1D7670CF007A5F15 /* Info.plist */,
+				B13A26991D7670CF007A5F15 /* Supporting Files */,
+			);
+			path = NetEaseViedoDemo;
+			sourceTree = "<group>";
+		};
+		B13A26991D7670CF007A5F15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13A269A1D7670CF007A5F15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13A26B21D7670CF007A5F15 /* NetEaseViedoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26B31D7670CF007A5F15 /* NetEaseViedoDemoTests.m */,
+				B13A26B51D7670CF007A5F15 /* Info.plist */,
+			);
+			path = NetEaseViedoDemoTests;
+			sourceTree = "<group>";
+		};
+		B13A26BD1D7670CF007A5F15 /* NetEaseViedoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A26BE1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m */,
+				B13A26C01D7670CF007A5F15 /* Info.plist */,
+			);
+			path = NetEaseViedoDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13A26951D7670CF007A5F15 /* NetEaseViedoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A26C31D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemo" */;
+			buildPhases = (
+				B13A26921D7670CF007A5F15 /* Sources */,
+				B13A26931D7670CF007A5F15 /* Frameworks */,
+				B13A26941D7670CF007A5F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEaseViedoDemo;
+			productName = NetEaseViedoDemo;
+			productReference = B13A26961D7670CF007A5F15 /* NetEaseViedoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B13A26AE1D7670CF007A5F15 /* NetEaseViedoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A26C61D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoTests" */;
+			buildPhases = (
+				B13A26AB1D7670CF007A5F15 /* Sources */,
+				B13A26AC1D7670CF007A5F15 /* Frameworks */,
+				B13A26AD1D7670CF007A5F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A26B11D7670CF007A5F15 /* PBXTargetDependency */,
+			);
+			name = NetEaseViedoDemoTests;
+			productName = NetEaseViedoDemoTests;
+			productReference = B13A26AF1D7670CF007A5F15 /* NetEaseViedoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B13A26B91D7670CF007A5F15 /* NetEaseViedoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A26C91D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoUITests" */;
+			buildPhases = (
+				B13A26B61D7670CF007A5F15 /* Sources */,
+				B13A26B71D7670CF007A5F15 /* Frameworks */,
+				B13A26B81D7670CF007A5F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A26BC1D7670CF007A5F15 /* PBXTargetDependency */,
+			);
+			name = NetEaseViedoDemoUITests;
+			productName = NetEaseViedoDemoUITests;
+			productReference = B13A26BA1D7670CF007A5F15 /* NetEaseViedoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13A268E1D7670CF007A5F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MKJING;
+				TargetAttributes = {
+					B13A26951D7670CF007A5F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B13A26AE1D7670CF007A5F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A26951D7670CF007A5F15;
+					};
+					B13A26B91D7670CF007A5F15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A26951D7670CF007A5F15;
+					};
+				};
+			};
+			buildConfigurationList = B13A26911D7670CF007A5F15 /* Build configuration list for PBXProject "NetEaseViedoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13A268D1D7670CF007A5F15;
+			productRefGroup = B13A26971D7670CF007A5F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13A26951D7670CF007A5F15 /* NetEaseViedoDemo */,
+				B13A26AE1D7670CF007A5F15 /* NetEaseViedoDemoTests */,
+				B13A26B91D7670CF007A5F15 /* NetEaseViedoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13A26941D7670CF007A5F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A26A91D7670CF007A5F15 /* LaunchScreen.storyboard in Resources */,
+				B13A26A61D7670CF007A5F15 /* Assets.xcassets in Resources */,
+				B13A26A41D7670CF007A5F15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26AD1D7670CF007A5F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26B81D7670CF007A5F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13A26921D7670CF007A5F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A26A11D7670CF007A5F15 /* ViewController.m in Sources */,
+				B13A269E1D7670CF007A5F15 /* AppDelegate.m in Sources */,
+				B13A269B1D7670CF007A5F15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26AB1D7670CF007A5F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A26B41D7670CF007A5F15 /* NetEaseViedoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A26B61D7670CF007A5F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A26BF1D7670CF007A5F15 /* NetEaseViedoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13A26B11D7670CF007A5F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A26951D7670CF007A5F15 /* NetEaseViedoDemo */;
+			targetProxy = B13A26B01D7670CF007A5F15 /* PBXContainerItemProxy */;
+		};
+		B13A26BC1D7670CF007A5F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A26951D7670CF007A5F15 /* NetEaseViedoDemo */;
+			targetProxy = B13A26BB1D7670CF007A5F15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B13A26A21D7670CF007A5F15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A26A31D7670CF007A5F15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B13A26A71D7670CF007A5F15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A26A81D7670CF007A5F15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B13A26C11D7670CF007A5F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13A26C21D7670CF007A5F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B13A26C41D7670CF007A5F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEaseViedoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B13A26C51D7670CF007A5F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEaseViedoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B13A26C71D7670CF007A5F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseViedoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseViedoDemo.app/NetEaseViedoDemo";
+			};
+			name = Debug;
+		};
+		B13A26C81D7670CF007A5F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseViedoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseViedoDemo.app/NetEaseViedoDemo";
+			};
+			name = Release;
+		};
+		B13A26CA1D7670CF007A5F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseViedoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseViedoDemo;
+			};
+			name = Debug;
+		};
+		B13A26CB1D7670CF007A5F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseViedoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikejing.NetEaseViedoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseViedoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13A26911D7670CF007A5F15 /* Build configuration list for PBXProject "NetEaseViedoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A26C11D7670CF007A5F15 /* Debug */,
+				B13A26C21D7670CF007A5F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A26C31D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A26C41D7670CF007A5F15 /* Debug */,
+				B13A26C51D7670CF007A5F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B13A26C61D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A26C71D7670CF007A5F15 /* Debug */,
+				B13A26C81D7670CF007A5F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B13A26C91D7670CF007A5F15 /* Build configuration list for PBXNativeTarget "NetEaseViedoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A26CA1D7670CF007A5F15 /* Debug */,
+				B13A26CB1D7670CF007A5F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13A268E1D7670CF007A5F15 /* Project object */;
+}
