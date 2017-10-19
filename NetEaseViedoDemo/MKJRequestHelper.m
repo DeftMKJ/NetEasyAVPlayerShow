@@ -35,13 +35,33 @@
     }
     return NO;
 }
+- (NSString *)toJSONData:(NSDictionary *) dir
+{
+    if(!dir)
+    {
+        return @"";
+    }
+    
+    NSError *error = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dir
+                                                       options:NSJSONWritingPrettyPrinted
+                                                         error:&error];
+    
+    if ([jsonData length] > 0){
+        return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    }
+    else
+    {
+        return @"";
+    }
+}
 
 - (void)getDataWithURLString:(NSString *)urlStr complete:(completeBlock)completion
 {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     [manager GET:urlStr parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-       
+        NSLog(@"Response Json Data = %@",[self toJSONData:responseObject]);
         NSArray *arr = [responseObject valueForKey:@"videoList"];
         if (![self isEmpty:arr])
         {

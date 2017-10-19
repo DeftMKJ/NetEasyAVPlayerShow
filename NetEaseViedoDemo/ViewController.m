@@ -30,6 +30,8 @@
 @property (nonatomic,assign) BOOL isSmallScreen; // 是否放置在window上
 @property(nonatomic,strong) ViedoTableViewCell *currentCell; // 当前cell
 
+@property (nonatomic,assign) NSInteger currentPage;
+
 @end
 
 static NSString *identify = @"ViedoTableViewCell";
@@ -39,6 +41,8 @@ static NSString *identify = @"ViedoTableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.currentPage = 0;
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
@@ -349,8 +353,12 @@ static NSString *identify = @"ViedoTableViewCell";
         {
             [weakSelf.viedoLists removeAllObjects];
             weakSelf.viedoLists = (NSMutableArray *)obj;
-            [self.tableView reloadData];
-            [self.tableView.mj_header endRefreshing];
+            [weakSelf.tableView reloadData];
+            [weakSelf.tableView.mj_header endRefreshing];
+            weakSelf.currentPage = 1;
+        }
+        else{
+            [weakSelf.tableView.mj_header endRefreshing];
         }
 
     }];
@@ -360,7 +368,7 @@ static NSString *identify = @"ViedoTableViewCell";
 - (void)loadMore
 {
     __weak typeof (self)weakSelf = self;
-     NSString *URLString = [NSString stringWithFormat:@"http://c.m.163.com/nc/video/home/%u-10.html",arc4random() % 10];
+     NSString *URLString = [NSString stringWithFormat:@"http://c.m.163.com/nc/video/home/%ld-10.html",self.currentPage];
     [[MKJRequestHelper shareHelper] getDataWithURLString:URLString complete:^(NSError *err, id obj) {
        
         if (!err)
@@ -376,7 +384,11 @@ static NSString *identify = @"ViedoTableViewCell";
             [weakSelf.viedoLists addObjectsFromArray:((NSMutableArray *)obj)];
             [weakSelf.tableView insertRowsAtIndexPaths:indexpaths withRowAnimation:UITableViewRowAnimationFade];
             [weakSelf.tableView.mj_footer endRefreshing];
+            weakSelf.currentPage++;
             
+        }
+        else{
+            [weakSelf.tableView.mj_footer endRefreshing];
         }
         
     }];
